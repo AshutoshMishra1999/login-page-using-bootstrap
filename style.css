@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    background-image: linear-gradient(to right, #cd2121, #dd5b00, #e48a00, #e0b700, #d2e31a);
+    box-shadow: 12px 12px 27px;
+    width: auto;
+    height: 37rem;
+}
+
+img {
+    width: 120%;
+    height: 37.5rem;
+    border-top-left-radius: 355px;
+    border-bottom-right-radius: 375px;
+}
+
+.login h1 {
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+
+.inp {
+    height: 50px;
+    width: 70%;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 16px 9px 30px 19px rgba(0, 0, 0, 0.35);
+}
+
+.btn1 {
+    width: 200px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 49%, rgba(252, 70, 223, 1) 86%);
+}
+.btn1:hover{
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+.fa-facebook{
+    padding: 10px;
+    font-size: 30px;
+}
+.fa-facebook:hover{
+    color: blue;
+}
+.fa-instagram{
+    padding: 10px;
+    font-size: 30px;
+}
+.fa-instagram:hover{
+    color: rgb(233, 7, 139);
+}
+.fa-linkedin{
+    padding: 10px;
+    font-size: 30px;
+}
+.fa-linkedin:hover{
+    color: blue;
+}
